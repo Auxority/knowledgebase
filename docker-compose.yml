@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      args:
+        - TINA_CLIENT_ID=${TINA_CLIENT_ID}
+        - TINA_TOKEN=${TINA_TOKEN}
+    env_file:
+      - .env
+    volumes:
+      - ./app:/app
+    ports:
+      - "4321:4321"

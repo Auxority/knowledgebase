@@ -1,0 +1,8 @@
+# Directories
+.DS_Store
+.vscode
+.git
+node_modules
+
+# Environment variables
+.env

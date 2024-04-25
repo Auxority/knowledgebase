@@ -7,6 +7,8 @@ import { defineConfig } from "tinacms";
 // 	process.env.HEAD ||
 // 	"main";
 
+console.log(process.env)
+
 export default defineConfig({
 	branch: "main",
 
